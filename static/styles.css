@@ -123,3 +123,16 @@
     text-decoration: underline;
   }
   
+  .icon {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    fill: currentColor;
+  }
+  .footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+  }
