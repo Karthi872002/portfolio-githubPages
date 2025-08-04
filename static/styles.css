@@ -1,66 +1,86 @@
-/* Custom Styling for Portfolio */
+/* General Body */
 body {
-    background-color: #f8f9fa;
+    background-color: #1e1e2f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #343a40;
-}
-
-.navbar {
-    background-color: #007bff !important;
-}
-.navbar .navbar-brand {
+    color: #f1f1f1;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #6f42c1 !important;
+  }
+  .navbar .navbar-brand {
     color: #fff !important;
     font-weight: 700;
     font-size: 1.5rem;
-}
-
-header {
-    background: linear-gradient(45deg, #007bff, #00bfff);
-    color: white;
-    padding: 3rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 0.5rem;
-}
-
-header h1 {
+  }
+  
+  /* Header */
+  .custom-header {
+    background: linear-gradient(45deg, #6f42c1, #9b59b6);
+    border-radius: 0 0 1rem 1rem;
+  }
+  .custom-header h1 {
     font-weight: 700;
     font-size: 2.5rem;
     letter-spacing: 0.05em;
-}
-
-header p {
+  }
+  .custom-header p {
     font-size: 1.25rem;
     margin-top: 0.5rem;
     font-weight: 400;
-}
-
-section h2 {
-    color: #007bff;
-    border-bottom: 3px solid #007bff;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    color: #9b59b6;
+    border-bottom: 3px solid #9b59b6;
     padding-bottom: 0.25rem;
     margin-bottom: 1rem;
     font-weight: 700;
-}
-
-.list-group-item {
-    background-color: #fff;
-    border-left: 5px solid #007bff;
+  }
+  
+  /* List Styling */
+  .list-group-item {
+    background-color: #2e2e42;
+    border-left: 5px solid #9b59b6;
     margin-bottom: 0.5rem;
-    transition: box-shadow 0.3s ease;
-}
-
-.list-group-item:hover {
-    box-shadow: 0 4px 8px rgba(0,123,255,0.2);
-}
-
-.container {
+    transition: all 0.3s ease;
+    color: #f1f1f1;
+  }
+  .list-group-item:hover {
+    box-shadow: 0 4px 12px rgba(155, 89, 182, 0.3);
+    transform: scale(1.01);
+  }
+  
+  /* Container Width */
+  .container {
     max-width: 800px;
-}
-
-a {
-    color: #007bff;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #b388ff;
     text-decoration: none;
-}
-a:hover {
+    transition: 0.3s ease;
+  }
+  a:hover {
     text-decoration: underline;
-}
+    color: #d5aaff;
+  }
+  
+  /* Footer */
+  .custom-footer {
+    background: linear-gradient(45deg, #6f42c1, #8e44ad);
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .footer-link {
+    color: #e0cfff;
+  }
+  .footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
